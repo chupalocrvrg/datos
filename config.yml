@@ -1,0 +1,15 @@
+timezone: "America/Guayaquil"
+rate_limit_seconds: 3
+max_retries: 5
+retry_backoff_factor: 2.0
+request_timeout: 15
+cache_ttl_seconds: 300
+user_agent: "CuotaProScraper/1.0 (+https://example.com) Python"
+league_factors:
+  "Premier League": 1.05
+  "Bundesliga": 1.07
+  "Serie A": 1.00
+  "Ligue 1": 0.98
+  "Primeira Liga": 0.85
+  "Eredivisie": 1.10
+  "Champions League": 1.03
